@@ -7,7 +7,7 @@ void draw(){
   strokeWeight(5);
   noFill();
   square(300, 300, 300);
-  rotate(TAU * 0.00);
+  rotate( radians(1) );
   
   square(300, 300, 300);
   rotate(10);
