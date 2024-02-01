@@ -6,7 +6,8 @@ void setup(){
 
 // Make the background white
 void draw(){
-  background(#FFFFFF);
+  background(#ffffff);
   strokeWeight(5);
-  line(100,100,100,100);
+  line(100,0,100,890);
+  line(641,393,24,392);
 }
