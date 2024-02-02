@@ -9,6 +9,7 @@ void draw(){
   background(#ffffff);
   strokeWeight(30);
   stroke(#EFF23D);
-  line(100, 0, 100, 959);
-  line(260, 0, 260, 900);
+  line(50, 0, 50, 959);
+  line(160, 0, 160, 900);
+  line(500, 0, 500, 900);
 }
