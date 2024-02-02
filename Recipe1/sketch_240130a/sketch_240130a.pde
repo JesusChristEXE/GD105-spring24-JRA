@@ -8,6 +8,6 @@ void setup(){
 void draw(){
   background(#f1eec1);
   strokeWeight(5);
-  line(100, 0, 100, 100);
-  line(200, 0, 200, 200);
+  line(100, 0, 100, 959);
+  line(260, 0, 260, 897);
 }
