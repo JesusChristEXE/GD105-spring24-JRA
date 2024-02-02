@@ -10,6 +10,8 @@ void draw(){
   strokeWeight(30);
   stroke(#EFF23D);
   line(50, 0, 50, 959);
+  line(0, 100, 500, 100);
   line(160, 0, 160, 900);
   line(500, 0, 500, 900);
+
 }
