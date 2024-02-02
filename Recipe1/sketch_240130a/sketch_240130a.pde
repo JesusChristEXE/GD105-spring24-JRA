@@ -6,11 +6,8 @@ void setup(){
 
 // Make the background old paper white
 void draw(){
-  background(#FFFFFF);
+  background(#f1eec1);
   strokeWeight(5);
-  noFill();
-  square(300, 300, 300);
-  rotate( radians(1) );
-  square(300, 300, 300);
-  rotate(10);
+  line(100, 0, 100, 100);
+  line(200, 0, 200, 200);
 }
