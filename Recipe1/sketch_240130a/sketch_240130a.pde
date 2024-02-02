@@ -6,8 +6,9 @@ void setup(){
 
 // Make the background old paper white
 void draw(){
-  background(#f1eec1);
+  background(#ffffff);
   strokeWeight(5);
+  stroke(#EFF23D);
   line(100, 0, 100, 959);
   line(260, 0, 260, 897);
 }
