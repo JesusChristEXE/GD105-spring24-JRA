@@ -1,7 +1,9 @@
 void setup(){
-size(900,900);
+  size(900,900);
 }
 
 void draw(){
-background(#ff3fff);
+  background(#FFFFFF);
+  strokeWeight(3);
+  square(100, 100, 100);
 }
