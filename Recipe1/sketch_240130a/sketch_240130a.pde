@@ -7,14 +7,17 @@ void setup(){
 // Make the background old paper white
 void draw(){
   background(#ffffff);
-  strokeWeight(30);
+  strokeWeight(20);
   stroke(#EFF23D);
   line(50, 0, 50, 959);
   line(0, 100, 500, 100);
   line(160, 0, 160, 900);
   line(500, 0, 500, 900);
-  line(0, 700, 700, 700);
+  line(0, 700, 897, 700);
   line(100, 100, 100, 100);
-  line(0, 780, 780, 780);
-  line(600, 0, 600, 888);
+  line(0, 750, 898, 750);
+  line(600, 0, 600, 891);
+  line(850, 0, 850, 899);
+  line(0, 100, 902, 100);
+  line(0, 850, 890, 850);
 }
