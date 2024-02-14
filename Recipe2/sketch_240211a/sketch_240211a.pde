@@ -7,4 +7,5 @@ void draw(){
   strokeWeight(3);
   noFill();
   square(100, 100, 100);
+  line(0, 100, 100, 450);
 }
