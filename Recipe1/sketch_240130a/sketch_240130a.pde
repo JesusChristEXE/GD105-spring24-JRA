@@ -5,6 +5,7 @@ void setup(){
 }
 
 // Make the background old paper white
+// Add the lines and make the stroke just the right amount and in the right locations
 void draw(){
   background(#ffffff);
   strokeWeight(20);
@@ -20,4 +21,6 @@ void draw(){
   line(850, 0, 850, 899);
   line(0, 100, 902, 100);
   line(0, 850, 890, 850);
+  stroke(#FA2D2D);
+  line(200, 0, 200, 890);
 }
