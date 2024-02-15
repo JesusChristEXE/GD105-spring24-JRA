@@ -45,4 +45,8 @@ void draw(){
   line(0, 820, 890, 820);
   line(0, 150, 890, 150);
   line(0, 394, 890, 394);
+// Save an image of it
+  if (frameCount == 1) {
+  save("recipe1.png");
+  }
 }
