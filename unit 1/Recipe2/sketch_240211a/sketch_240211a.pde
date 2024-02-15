@@ -80,7 +80,7 @@ void draw(){
   square(97, 297, 100);
   fill(#214bc9);
   square(196, 296, 100);
-  fill(#ffffff);
+  fill(#E80774);
   square(295, 296, 100);
   fill(#E59500);
   square(395, 296, 100);
