@@ -1,4 +1,7 @@
 // New York City I, 1942 by Piet Mondrian
+
+// WHen I was making this piece it reminded me of two things that I learned in life, How to 
+
 // Make the canvas
 void setup(){
   size(888,888);
@@ -25,4 +28,7 @@ void draw(){
   line(200, 0, 200, 890);
   line(888, 50, 0, 50);
   line(816, 0, 816, 890);
+  line(888, 500, 0, 500);
+  stroke(#1D3FA0);
+  line(100, 0, 100, 888);
 }
