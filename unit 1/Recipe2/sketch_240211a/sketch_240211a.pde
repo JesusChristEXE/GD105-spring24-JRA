@@ -5,7 +5,24 @@ void setup(){
 void draw(){
   background(#FFFFFF);
   strokeWeight(3);
-  noFill();
-  square(100, 100, 100);
-  line(0, 100, 100, 450);
+  square(0, 0, 100);
+  square(97, 0, 100);
+  square(196, 0, 100);
+  square(295, 0, 100);
+  square(395, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
+  square(495, 0, 100);
 }
