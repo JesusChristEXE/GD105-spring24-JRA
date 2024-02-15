@@ -68,11 +68,11 @@ void draw(){
   square(595, 198, 100);
   fill(#db692b);
   square(695, 198, 100);
-  fill(#ffffff);
+  fill(#F27D00);
   square(793, 198, 100);
   fill(#214AC1);
   square(891, 198, 100);
-  fill(#ffffff);
+  fill(#F27D00);
   square(495, 395, 100);
   fill(#E3426B);
   square(0, 299, 100);
