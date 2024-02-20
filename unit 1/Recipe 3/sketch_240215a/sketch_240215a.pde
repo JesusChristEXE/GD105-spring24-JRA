@@ -1,18 +1,16 @@
-
-
 void setup() {
   size(900, 900);
+
 }
 
 void draw() {
-  translate(450, 450);
   textAlign(CENTER, TOP);
   textSize(128);
-  text("SOLITUDE", 40, 120); 
+  fill(#ffffff);
+  text("SOLITUDE", 33, -164); 
   textAlign(CENTER, CENTER);
-  fill(0, 408, 612);
+  fill(#ffffff);
   text("IS", 40, 240);
   textAlign(CENTER, BOTTOM);
-  fill(0, 408, 612, 204);
+  fill(#ffffff);
   text("ENRICHING", 40, 360);
-}
