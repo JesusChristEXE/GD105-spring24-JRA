@@ -5,10 +5,14 @@ void setup() {
 }
 
 void draw() {
-textSize(128);
-text("word", 40, 120); 
-fill(0, 408, 612);
-text("word", 40, 240);
-fill(0, 408, 612, 204);
-text("word", 40, 360);
+  translate(450, 450);
+  textAlign(CENTER, TOP);
+  textSize(128);
+  text("SOLITUDE", 40, 120); 
+  textAlign(CENTER, CENTER);
+  fill(0, 408, 612);
+  text("IS", 40, 240);
+  textAlign(CENTER, BOTTOM);
+  fill(0, 408, 612, 204);
+  text("ENRICHING", 40, 360);
 }
