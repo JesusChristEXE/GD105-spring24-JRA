@@ -6,11 +6,14 @@ void draw() {
   textAlign(CENTER, TOP);
   textSize(128);
   fill(#ffffff);
-  text("SOLITUDE", 33, -164); 
+  text("SOLITUDE", 450, 107); 
   textAlign(CENTER, CENTER);
   fill(#ffffff);
-  text("IS", 40, 240);
+  text("IS", 450, 260);
   textAlign(CENTER, BOTTOM);
   fill(#ffffff);
-  text("ENRICHING", 40, 360);
+  text("ENRICHING", 450, 450);
+  stroke(#FFFFFF);
+  strokeWeight(4);
+  line(450, 420, 450, 900); 
 }
