@@ -1,6 +1,5 @@
 void setup() {
   size(900, 900);
-
 }
 
 void draw() {
@@ -14,3 +13,4 @@ void draw() {
   textAlign(CENTER, BOTTOM);
   fill(#ffffff);
   text("ENRICHING", 40, 360);
+}
