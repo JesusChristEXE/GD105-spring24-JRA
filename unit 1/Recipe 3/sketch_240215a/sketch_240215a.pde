@@ -15,5 +15,9 @@ void draw() {
   text("ENRICHING", 450, 450);
   stroke(#FFFFFF);
   strokeWeight(4);
-  line(450, 420, 450, 900); 
+  line(300, 200, 300, 300); 
+  line(450, 420, 450, 700);
+  line(310, 420, 310, 600);
+  line(700, 198, 700, 250);
+  line(630, 380, 630, 550);
 }
