@@ -1,5 +1,6 @@
 // I chose this quote because I wanted to make it seem off.
-// I made it seem creepy by making it red with a bloody feeling
+// I made it seem creepy by making it red with a bloody feeling.
+// I wanted to make it like that cause while I read it it gave me some creepy vibes
 void setup(){
   size(900, 900);
 }
