@@ -44,5 +44,8 @@ void draw() {
   text("ROAD!!", 628, 100);
   fill(0);
   text("Building B", 44, 835);
-
+  // Save an image of it
+  if (frameCount == 1) {
+  save("recipe4.png");
+}
 }
