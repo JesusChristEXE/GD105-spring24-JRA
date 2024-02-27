@@ -1,12 +1,13 @@
-
+// I saw this art peiece as a checkered board and wanted to imitate it as best as I can
+// I tried to make each square match the same color but it ended up being more difficult 
+// At least I know that if I am coloring alot of square I can save the colors to this program and I can make it easier to fill the shapes
 // Checkerboard, Dark Colors, 1919 by Piet Mondrian
-
+// https://www.piet-mondrian.org/composition-checkerboard-dark-colors.jsp
 void setup(){
   size(900,900);
 }
 
 void draw(){
-  background(#e09534);
   noStroke();
   fill(#df8535);
   square(0, 0, 100);
