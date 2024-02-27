@@ -1,3 +1,5 @@
+// I chose this quote because I wanted to make it seem off.
+// I made it seem creepy by making it red with a bloody feeling
 void setup(){
   size(900, 900);
 }
@@ -28,4 +30,8 @@ void draw() {
   arc(779, 699, 222, 167, HALF_PI, PI);
   fill(0);
   ellipse(739, 665, 62, 37);
+  // Save an image of it
+  if (frameCount == 1) {
+  save("recipe3.png");
+  }
 }
