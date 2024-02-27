@@ -1,8 +1,8 @@
-void setup() {
+void setup(){
   size(900, 900);
-  background(#030303);
 }
 void draw() {
+  background(#030303);
   fill(#FC3636);
   textAlign(CENTER, TOP);
   textSize(128);
@@ -18,8 +18,14 @@ void draw() {
   line(310, 420, 310, 600);
   line(700, 198, 700, 250);
   line(630, 380, 630, 550);
-  fill(#FFFFFF);
-  rect(900, 600, 900, 500);
   noFill();
   ellipse(169, 712, 220, 220);
+  fill(#FC3636);
+  ellipse(700, 700, 220, 220);
+  arc(140, 680, 100, 100, 0, PI+QUARTER_PI, CHORD);
+  noFill();
+  stroke(0);
+  arc(779, 699, 222, 167, HALF_PI, PI);
+  fill(0);
+  ellipse(739, 665, 62, 37);
 }
