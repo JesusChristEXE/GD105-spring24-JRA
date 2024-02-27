@@ -21,5 +21,5 @@ void draw() {
   fill(#FFFFFF);
   rect(900, 600, 900, 500);
   noFill();
-  ellipse(224, 184, 220, 220);
+  ellipse(169, 712, 220, 220);
 }
