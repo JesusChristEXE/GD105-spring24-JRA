@@ -4,6 +4,7 @@
 // How I learned how to stich and weave cloth threads
 // and how New York would look like if you asked kid me.
 // This art reminds me how art like this can represent a bigger picture. 
+//https://www.piet-mondrian.org/new-york-city.jsp
 
 // Make the canvas
 void setup(){
