@@ -9,7 +9,7 @@ void setup(){
 
 void draw(){
   noStroke();
-  fill(#df8535);
+  fill(#ba2a78);
   square(0, 0, 100);
   fill(#cc7401);
   square(97, 0, 100);
@@ -17,10 +17,8 @@ void draw(){
   square(196, 0, 100);
   fill(#df871f);
   square(295, 0, 100);
-  fill(#E59500);
+  fill(#1228ad);
   square(395, 0, 100);
-  fill(#e98a25);
-  square(495, 0, 100);
   fill(#d38132);
   square(595, 0, 100);
   fill(#db692b);
