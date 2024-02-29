@@ -1,3 +1,6 @@
+// I made this map as if it were in my brain and 
+// I tried to make it exactly if I were to quickly imagine it 
+
 void setup() {
   size(900, 900);
 }
