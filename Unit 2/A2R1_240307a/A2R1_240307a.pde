@@ -6,7 +6,7 @@ PImage Title;
 PImage SPNoir;
 
 void setup(){
-  size (1000, 1000);
+  size (1000, 900);
   
   //Add photos to code
   ComicLogo = loadImage("ComicLogo.jpg");
@@ -18,11 +18,13 @@ void setup(){
 }
 
 void draw(){
-  background(#303030);
+  background(#171717);
+  scale(0.8);
+  image(SPNoir, 556, 400);
+  resetMatrix();
   
-  image(SPNoir, 100, 100);
-  
-  image(Title, 174, -121);
+  S
+  image(Title, 174, -130);
   
   scale(0.3);
   image(ComicLogo, 0, 0);
