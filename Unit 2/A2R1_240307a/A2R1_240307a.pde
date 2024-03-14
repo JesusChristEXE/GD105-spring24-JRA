@@ -4,13 +4,14 @@ PImage City;
 PImage Cook;
 PImage Title;
 PImage SPNoir;
+PImage NCity;
 
 void setup(){
-  size (1000, 900);
+  size (700, 900);
   
   //Add photos to code
   ComicLogo = loadImage("ComicLogo.jpg");
-  City = loadImage("niorCity.jpg");
+  City = loadImage("NoirCity.jpg");
   Cook = loadImage("SpiderSense.jpg");
   Title = loadImage("SpiderManNoirLogo.png");
   SPNoir = loadImage("noir.png");
@@ -19,15 +20,17 @@ void setup(){
 
 void draw(){
   background(#171717);
-  scale(0.8);
-  image(SPNoir, 556, 400);
+  scale(0.7);
+  image(SPNoir, 352, 560);
   resetMatrix();
   
-  S
-  image(Title, 174, -130);
+  scale(0.67);
+  image(Title, 186, -152);
+  resetMatrix();
   
-  scale(0.3);
+  scale(0.18);
   image(ComicLogo, 0, 0);
   resetMatrix();
   
+  image(City);
 }
