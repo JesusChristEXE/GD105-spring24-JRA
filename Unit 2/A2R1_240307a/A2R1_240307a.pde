@@ -32,5 +32,5 @@ void draw(){
   image(ComicLogo, 0, 0);
   resetMatrix();
   
-  image(City);
+  image(City, 107, 210);
 }
