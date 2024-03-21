@@ -1,6 +1,6 @@
 // Im going to make a spiderman collage for the first assignment for Unit 2
 PImage ComicLogo;
-PImage City;
+PImage New;
 PImage Cook;
 PImage Title;
 PImage SPNoir;
@@ -11,7 +11,7 @@ void setup(){
   
   //Add photos to code
   ComicLogo = loadImage("ComicLogo.jpg");
-  City = loadImage("NoirCity.jpg");
+  New = loadImage("NEWS.jpg");
   Cook = loadImage("SpiderSense.jpg");
   Title = loadImage("SpiderManNoirLogo.png");
   SPNoir = loadImage("noir.png");
@@ -20,6 +20,8 @@ void setup(){
 
 void draw(){
   background(#171717);
+  image(New, 350, 450);
+  
   scale(0.7);
   image(SPNoir, 352, 560);
   resetMatrix();
@@ -31,6 +33,4 @@ void draw(){
   scale(0.18);
   image(ComicLogo, 0, 0);
   resetMatrix();
-  
-  image(City, 107, 210);
 }
