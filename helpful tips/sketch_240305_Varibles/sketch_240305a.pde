@@ -6,7 +6,6 @@ float y1 = 200;
 // changes speed
 float speedx = 5;
 float speedy = 7;
-color o = color(300, 60, 100);
 
 void setup(){
   size(800, 800);
@@ -14,7 +13,6 @@ void setup(){
 
 void draw(){
   background(0);
-  fill(o);
   circle(x1, y1, size);
 // you can move it like this.
   
@@ -28,4 +26,14 @@ void draw(){
   if(y1 > height || y1 < 0){
     speedy *= -1;
   }
+ 
+// trying to change its color all the time
+// found it but it works for movment and only postions
+    if(x1 > width || x1 < 0){
+    fill(random(255), random(255), random(255), random(255));
+  }
+  if(y1 > height || y1 < 0){
+    fill(random(255), random(255), random(255), random(255));
+  }
+
 }
