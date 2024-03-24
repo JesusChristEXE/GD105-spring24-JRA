@@ -18,6 +18,7 @@ void setup(){
 }
 
 void draw(){
+  background(#CBC9C9);
 // Add the square with no fill
   translate(230,230);
   noFill();
@@ -27,8 +28,18 @@ void draw(){
 // Add the code so that the squares can only appear inside the square
   noStroke();
   fill(random(225), random(225), random(225), random(225));
-  square(random(440),random(440), 20);
-
+  square(random(440), random(440), random(50));
+  fill(random(225), random(225), random(225), random(225));
+  square(random(440), random(440), random(50));
+  fill(random(225), random(225), random(225), random(225));
+  square(random(440), random(440), random(50));
+  fill(random(225), random(225), random(225), random(225));
+  square(random(440), random(440), random(50));
+  fill(random(225), random(225), random(225), random(225));
+  square(random(440), random(440), random(50));
+  fill(random(225), random(225), random(225), random(225));
+  square(random(440), random(440), random(50));
+  
 // add the eyes and smile (aka the lines and arc)
   stroke(0);
   strokeWeight(20);
@@ -41,9 +52,10 @@ void draw(){
   resetMatrix();
   if(frameCount >= 1000){
 
-  textFont(JOY);
+  textFont(JOY, 100);
   fill(random(225), random(225), random(225), random(225));
   text("JOY", x1, y1);
+
   
   x1 += speedx;
   y1 += speedy;
