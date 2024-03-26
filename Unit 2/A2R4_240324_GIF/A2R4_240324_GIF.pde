@@ -1,13 +1,11 @@
 PFont Segoe;
-
 float x1 = 0;
 float y1 = 0;
 float y2 = 30;
-
 float speedx = 4;
 float speedy = 6;
 
-// GIF is gonna be the dvd logo cause it is a great idea
+// GIF is gonna be a spanish dvd logo cause it is a great idea
 void setup(){
   size(750,700);
   background(0);
@@ -18,8 +16,10 @@ void setup(){
 void draw(){
 // First make the logo
   background(0);
-  
-  ellipse(x1, y1, 165, 118);
+  noFill();
+  strokeWeight(5);
+  stroke(random(255), random(72), random(72));
+  ellipse(x1, y1, 167, 118);
   
   textFont(Segoe, 45);
   textAlign(CENTER);
@@ -32,19 +32,22 @@ void draw(){
   x1 += speedx;
   y1 += speedy;
   y2 += speedy;
-  
+
   if(x1 > width || x1 < 0){
     speedx *= -1;
   }
   if(y1 > height || y1 < 0){
     speedy *= -1;
   }
+  if(y2 > height || y2 < 0){
+    speedy *= -1;
+  }
 
 // make it change color if it touches the sides/corners
   if(x1 > width || x1 < 0){
-    fill(random(255 + 72), random(255 + 72), random(255 + 72));
+    stroke(random(255), random(72), random(72));
   }
   if(y1 > height || y1 < 0){
-    fill(random(255 + 72), random(255 + 72), random(255 + 72));
+    stroke(random(255), random(72), random(72));
   }
 }
