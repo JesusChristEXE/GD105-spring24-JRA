@@ -33,17 +33,17 @@ void draw(){
   y1 += speedy;
   y2 += speedy;
 
-  if(x1 > width || x1 < 0){
+  if(x1 > width || x1 < 2){
     speedx *= -1;
   }
-  if(y1 > height || y1 < 0){
+  if(y1 > height || y1 < 2){
     speedy *= -1;
   }
-  if(y2 > height || y2 < 0){
+  if(y2 > height || y2 < 2){
     speedy *= -1;
   }
 
-// make it change color if it touches the sides/corners
+// make it look like a neon circle
   if(x1 > width || x1 < 0){
     stroke(random(255), random(72), random(72));
   }
