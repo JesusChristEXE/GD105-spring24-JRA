@@ -2,12 +2,13 @@ PFont Segoe;
 float x1 = 0;
 float y1 = 0;
 float y2 = 30;
-float speedx = 4;
-float speedy = 6;
+float speedx = 5;
+float speedy = 7;
 
 // GIF is gonna be a spanish dvd logo cause it is a great idea
 void setup(){
   size(750,700);
+  frameRate(50);
   background(0);
   noStroke();
   Segoe = loadFont("SegoeUI-BoldItalic-48.vlw");
@@ -50,4 +51,7 @@ void draw(){
   if(y1 > height || y1 < 0){
     stroke(random(255), random(72), random(72));
   }
+
+// Save the frames and make GIF
+    saveFrame("frames/####.png");
 }
