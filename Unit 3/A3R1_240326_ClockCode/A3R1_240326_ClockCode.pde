@@ -15,5 +15,5 @@ void draw(){
   line(s, 0, s, 33);
   line(m, 33, m, 66);
   line(h, 66, h, 100);
-  
+  rect(100, 100, 100, 100);
 }
