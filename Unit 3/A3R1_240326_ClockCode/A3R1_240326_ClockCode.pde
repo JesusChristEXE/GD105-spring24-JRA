@@ -23,22 +23,10 @@ void draw(){
   fill(#7E7E7E);
   rect(0, 312, 751, 442);
   resetMatrix();
+  
   /* I want to make it when it hits a certain time, 
   it says lunch time, dinner time and other things
   */
-  
-// Add the screens for the text, time hands, and thing to do  
-// Put the screen boxes before the text so that its infront of it
-  strokeWeight(5);
-  fill(-1);
-  rect(10, 357, 263, 74);
-  
-//put the time
-  fill(0);
-  textSize(54);
-  text(h, 30, 406);
-  text(m, 97, 406);
-  text(s, 165, 406);
   
 // add the dials for the hours, minutes, and seconds.
   strokeWeight(5);
@@ -50,5 +38,6 @@ void draw(){
   circle(h + 500, 510, 30);
   
 // I must add so that the text is 
+  
   
 }
