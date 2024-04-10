@@ -13,6 +13,7 @@ void draw(){
   int s = second();  // Values from 0 - 59
   int m = minute();  // Values from 0 - 59
   int h = hour();    // Values from 0 - 23
+  int ms = millis(); // the miliseconds
   
 // add the dials for the hours, minutes, and seconds.
   fill(#fe3b3f);
@@ -21,7 +22,8 @@ void draw(){
   circle(m + 500, 464, 30);
   fill(#FFFFFF);
   circle(h + 500, 510, 30);
-  circle(CENTER, BOTTOM, CENTER);
+  fill(#9D9D9D);
+  circle(ms, 610, 30); 
 // I must add so that the text is 
   
   
