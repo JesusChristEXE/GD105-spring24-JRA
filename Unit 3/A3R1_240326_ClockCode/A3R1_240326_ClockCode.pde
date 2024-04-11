@@ -1,10 +1,12 @@
+PFont Goth;
 /* 
   I want to make a clock that isn't a clock
 */
 void setup(){
- size(750,750);
+ size(850,850);
  noSmooth();
- loadFont("CenturyGothic-Bold-48.vlw");
+ Goth = loadFont("CenturyGothic-Bold-48.vlw");
+
 }
 
 void draw(){
@@ -13,18 +15,15 @@ void draw(){
   int s = second();  // Values from 0 - 59
   int m = minute();  // Values from 0 - 59
   int h = hour();    // Values from 0 - 23
-  int ms = millis(); // the miliseconds
   
 // add the dials for the hours, minutes, and seconds.
+  translate(width/2, height/2);
   fill(#fe3b3f);
-  circle(s + 500, 421, 30);
+  circle(s, s, 30);
   fill(0);
-  circle(m + 500, 464, 30);
+  circle(m, m, 30);
   fill(#FFFFFF);
-  circle(h + 500, 510, 30);
-  fill(#9D9D9D);
-  circle(ms, 610, 30); 
-// I must add so that the text is 
+  circle(h, h, 30);
   
   
 }
