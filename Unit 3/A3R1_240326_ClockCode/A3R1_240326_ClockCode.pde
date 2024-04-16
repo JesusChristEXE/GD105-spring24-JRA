@@ -1,11 +1,14 @@
-PFont Goth;
+PFont IMPACT;
+PImage Goku;
+
 /* 
   I want to make a clock that isn't a clock
 */
 void setup(){
  size(850,850);
  noSmooth();
- Goth = loadFont("CenturyGothic-Bold-48.vlw");
+ IMPACT = loadFont("Impact-48.vlw");
+ ps = new ParticleSystem(new PVector(width/2, 50));
 
 }
 
@@ -18,12 +21,14 @@ void draw(){
   
 // add the dials for the hours, minutes, and seconds.
   translate(width/2, height/2);
-  fill(#fe3b3f);
-  circle(s, s, 30);
-  fill(0);
-  circle(m, m, 30);
+  fill(#38DFF0);
+  circle(0, 0, s + 100);
+  fill(#4EB0EA);
+  circle(0, 0, m + 100);
   fill(#FFFFFF);
-  circle(h, h, 30);
+  circle(0, 0, h + 50);
   
+  ps.addParticle();
+  ps.run();
   
 }
