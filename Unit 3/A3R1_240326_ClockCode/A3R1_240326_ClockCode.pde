@@ -1,5 +1,6 @@
 PFont IMPACT;
 PImage Goku;
+ParticleSystem ps;
 
 /* 
   I want to make a clock that isn't a clock
@@ -24,7 +25,7 @@ void draw(){
   fill(#38DFF0);
   circle(0, 0, s + 100);
   fill(#4EB0EA);
-  circle(0, 0, m + 100);
+  circle(0, 0, m + 55);
   fill(#FFFFFF);
   circle(0, 0, h + 50);
   
