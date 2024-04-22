@@ -28,6 +28,7 @@ void draw(){
   circle(0, 0, m + 55);
   fill(#FFFFFF);
   circle(0, 0, h + 50);
+  resetMatrix();
   
   ps.addParticle();
   ps.run();
