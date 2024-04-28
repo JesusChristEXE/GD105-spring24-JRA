@@ -1,6 +1,7 @@
 PFont IMPACT;
 PImage Goku;
 
+
 /* 
   I want to make a clock that isn't a clock
 */
@@ -13,6 +14,7 @@ void setup(){
 }
 
 void draw(){
+  noSmooth();
   background(#EAE49F);
 // Make the time integers.
   int s = second();  // Values from 0 - 59
@@ -34,7 +36,6 @@ void draw(){
   image(Goku, 0, 520);
   
 // need to add particles
-
   
   
 }
