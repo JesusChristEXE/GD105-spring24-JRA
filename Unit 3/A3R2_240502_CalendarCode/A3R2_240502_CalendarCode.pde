@@ -1,9 +1,6 @@
-/*Im going to make a calendar as a flower so that it will have one petal and then at 
-  the final month it will be 12 petals. Also the petals will grow in size with each day
-*/
+/*Im going to make a calendar as a flower so that the colors of the petals change per month. 
+  Also the petals will grow in amount with each day(day 1, 1 petal. 31 days, 31 petals).*/
 
-int cols = 7; // Number of columns (days in a week)
-int rows = 4; // Number of rows (maximum number of weeks in a month)
 int grn = #4C8660;
 int ylw = #67583B;
 int m = month();
@@ -27,9 +24,10 @@ void draw() {
   
   //add the flower core
   fill(ylw);
-  circle(315, 242, 120);
+  circle(315, 300, 100);
   
-  //next I gotta add the petals and the effect that they have
+  /*next I gotta add the petals and the effect that every day the flower petals get more 
+  in amount */
   fill(0, day);
   ellipse(203, 256, 133, 40);
 }
