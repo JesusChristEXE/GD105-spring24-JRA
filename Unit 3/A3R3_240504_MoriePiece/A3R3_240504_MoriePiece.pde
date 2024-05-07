@@ -7,7 +7,7 @@ void setup() {
 void draw() {
   background(255);
   float maxRadius = 100;
-  float numCircles = 100;
+  float numCircles = 10;
   
   for (int i = 0; i < numCircles; i++) {
     float radius = map(sin(frameCount * 0.01 + TWO_PI / numCircles * i), -1, 1, 10, maxRadius);

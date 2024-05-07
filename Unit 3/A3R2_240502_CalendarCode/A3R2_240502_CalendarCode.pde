@@ -8,7 +8,7 @@ int day = day();
 
 void setup() {
   size(600, 600);
-  
+  colorMode(HSB, 400, 40, 4);
 }
 
 void draw() {
@@ -28,6 +28,5 @@ void draw() {
   
   /*next I gotta add the petals and the effect that every day the flower petals get more 
   in amount */
-  fill(0, day);
-  ellipse(203, 256, 133, 40);
+  
 }

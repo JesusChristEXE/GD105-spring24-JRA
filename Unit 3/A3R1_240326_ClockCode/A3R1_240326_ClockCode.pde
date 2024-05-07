@@ -24,12 +24,13 @@ void draw(){
 // add the dials for the hours, minutes, and seconds.
   translate(width/2, height/2);
   noStroke();
-  fill(#38DFF0);
+  fill(#38DFF0, );
   circle(0, -100, s + 447);
-  fill(#4EB0EA);
+  fill(#4EB0EA, m);
   circle(0, -100, m + 240);
-  fill(#FFFFFF);
+  fill(#FFFFFF, h);
   circle(0, -100, h + 150);
+  
   resetMatrix();
   
 // add goku cause he goku
