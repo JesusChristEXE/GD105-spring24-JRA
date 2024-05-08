@@ -24,7 +24,7 @@ void draw(){
 // add the dials for the hours, minutes, and seconds.
   translate(width/2, height/2);
   noStroke();
-  fill(#38DFF0, );
+  fill(#38DFF0, +100);
   circle(0, -100, s + 447);
   fill(#4EB0EA, m);
   circle(0, -100, m + 240);
