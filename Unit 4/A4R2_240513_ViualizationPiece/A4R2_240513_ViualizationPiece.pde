@@ -64,6 +64,7 @@ void draw() {
     if (currentHeight - circleSize / 2 < height - margin - cupHeight) {
       currentHeight = height - margin - circleSize / 2; // Reset height if we reach the top
     }
+  frameRate(10);
   }
 
   // Add labels
